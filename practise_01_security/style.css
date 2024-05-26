@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbarpart{
+    height: 500px;
+    width: 100%;
+   
+   background-image: url(backgroundimage.jpg);
+      
+}
+ 
+
+.navdiv{
+    display: flex;
+}
+
+#navbarpart .logopart{
+  margin-top: 5px;
+    width: 50%;
+   }
+  
+#navbarpart .logopart img{
+    margin-left: 100px;
+    
+    height: 50px;
+}
+ 
+#navbarpart .menu{
+    width: 50%;
+    margin-top: 5px;
+   height: 60px;
+   
+    
+}
+
+#navbarpart .menu ul li{
+    display: inline-block;
+    padding: 12px 12px;
+ 
+}
+ 
+#navbarpart .menu ul li a{
+    font-family:'Open Sans', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(240, 186, 61);
+    text-decoration: none;
+}
+#navbarpart .menu ul li:hover
+{   border-radius: 8px;
+    background: #fff9e6 ;
+  transition: 0.7s;
+
+}
+#navbarpart .menu ul li:hover a{
+    transition: .6s;
+    color: #ffb812;
+}
+.bandiv1 {
+    text-align: center;
+    width: 50%;
+}
+.bandiv2{
+    height: 500px;
+    
+}
+ .bannerdiv{
+    margin-top: 80px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+ }
+ .pic img{
+    height: 350px;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    width: 50%;
+    
+    
+ }
+ .b1{
+    width: 50%;
+ }
+ .pic{
+    width: 50%;
+    height: 500px;
+    
+   
+ }
+.b1 p{
+    color: rgb(236, 162, 65);
+    font-size: 20px; 
+    text-align: center;
+    
+}
+.b1 h2{
+    color: white;
+    font-size: 35px;
+    font-family:sans-serif;
+    text-align: center;
+}
+.servicecontainer
+{
+  text-align: center;
+       
+}
+#about{
+    width: 100%;
+    height: 200px;
+}
+#about .container{
+    background-color: rgb(243, 242, 240);
+    margin-top: 15px;
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+}
+#about img{
+    height: 100px;
+    padding-left: 20px;
+}
+.servicecontainer img{
+     padding-left: 35px;
+     margin-top: 35px;
+    height: 5px;
+    padding-bottom: 10px;
+     
+   
+}
+.servicecontainer p{
+    text-align: center;
+    margin-left: 24px;
+}
+.title h2{
+    margin-top: 17px;
+    font-size: 35px;
+    margin-left: 25px;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.servicecontainer img{
+    width: 13%;
+    height: 15px;
+}
+.div1{
+    height: 200px;
+    box-shadow: 1px 1px 8px rgb(186, 182, 182);
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 135px;
+    text-align: center;
+}
+.div3{
+   
+    width: 100%;
+   
+    height: 460px;
+
+    
+}
+.anotherdiv{
+    display: flex;
+    margin-top: 20px;
+}
+.divv2{
+    display: flex;
+    margin-top: 30px;
+     
+}
+.div1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+ .div1 img{
+    height: 50px;
+    margin-top: 10px;
+    width: 20%;
+}
+#image{
+    width: 40%;
+    height: 15px;
+}
+#testimonial{
+    width: 100%;
+    height:400px;
+    
+}
+.lastdiv{
+    display: flex;
+}
+
+.lstdiv1{
+    width: 40%;
+    height:400px ;
+     
+}
+.lstdiv1 img{
+    width: 70%;
+    height: 400px;
+    margin-left: 120px;
+}
+.lstdiv2{
+    width: 60%;
+    padding-left: 20px;
+     
+}
+.lstdiv2 button{
+    margin-bottom:5px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(153, 153, 245);
+}
+.lstdiv2 button:hover{
+    transition: .5s;
+    color: white;
+    background-color: aquamarine;
+}
+.lstdiv2 h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+ 
+
+}
+.lstdiv2 p{
+    margin-top: 10px;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lstdiv2 img{
+    width: 55%;
+}
+.lstdiv2 h3{
+    font-family: monospace;
+    font-size: 30px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(239, 234, 234);
+}
+.footer{
+    width: 25%;
+}
+.foter img{
+    width: 20%;
+    margin-left: 20px;
+}
+.foterdiv{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.foter{
+    display: flex;
+}
+.foter h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer input{
+    width: 60%;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    border: none;
+     
+    background-color:rgb(227, 221, 221);
+}
+.footer{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.pdiv h4{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.pdiv p{
+     
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pdiv{
+    margin-top: 10px;
+}
+.fotdiv{
+    margin-left: 20px;
+    width: 15%;
+    margin-top: 20px;
+     
+}
+.fotdiv p{
+    text-align: center;
+    margin-top: 5px;
+     padding-top: 10px;
+    
+}
+.fotdiv img{
+    width: 90%;
+    margin-left: 8px;
+}
+.fotdiv h3{
+    text-align: center;
+}
+.diver{
+    width: 30%;
+    height: 200px;
+    margin-top: 20px;
+    
+}
+.diver h3{
+    text-align: center;
+}
+.diver img{
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 5px;
+}
+.diver1
+{
+    width: 10%;
+}
+.diver2{
+    width: 20%;
+    margin-left: 50px;
+    
+}
+.diver2 p{
+     
+    font-size: 16px;
+}
+.diver3{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 10px;
+}
